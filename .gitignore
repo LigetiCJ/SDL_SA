@@ -45,7 +45,7 @@
 #Codeblocks files
 *.depend
 *.cbp
-
+*.layout
 
 # Kernel Module Compile Results
 *.mod*

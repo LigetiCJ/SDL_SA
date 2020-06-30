@@ -3,7 +3,14 @@
 
 #include "SDL2/SDL.h"
 
-int SDLSA_Init(char* WindowName, int width, int height);
-char** SDLSA_GetKeys();
+#define SDLSA_DRAW_MODE_PALLET = 0;
+#define SDLSA_DRAW_MODE_RGB = 1;
+#define SDLSA_DRAW_MODE_RGBA = 2;
+#define SDLSA_DRAW_MODE_FANCY_RGBA = 3;
+char SDLSA_KEYS[13];
 
+int SDLSA_Init(char* WindowName, int width, int height);
+void SDLSA_GetKeys();
+void SDLSA_SetDrawMode(int drawMode);
+void SDLSA_PSet(int x, int y, int color);
 #endif // SDL_SIMPLEABSTRACTION_H_INCLUDED

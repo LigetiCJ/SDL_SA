@@ -1,6 +1,4 @@
-#define NULL = 0;
-
-
+#include "stdlib.h"
 #include "SDL_SimpleAbstraction.h"
 
 //SDL_SA Globals

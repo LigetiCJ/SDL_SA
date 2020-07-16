@@ -64,3 +64,5 @@ cmake-build-**/
 
 # VS
 **/.vs/
+SDL_SA.depend
+SDL_SA.cbp

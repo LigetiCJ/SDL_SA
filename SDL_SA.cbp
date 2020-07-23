@@ -36,13 +36,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="GAME_Tetris.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="SDL_SimpleAbstraction.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="SDL_SimpleAbstraction.h" />
+		<Unit filename="Tetris/GAME_Tetris.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

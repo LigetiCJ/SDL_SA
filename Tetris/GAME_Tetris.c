@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "SDL_SimpleAbstraction.h"
+#include "../SDL_SimpleAbstraction.h"
 
 
 int init_tetris();
@@ -55,7 +55,10 @@ char move(char blockType, char blockX, char blockY, char blockRotation, char mov
 
 
 int main(int argc, char **argv){
-    SDL_Window* w = SDLSA_Init("Hello, SDLSA", 100,100);
-    printf("%i", w);
+    SDL_Window* w = SDLSA_Init("Hello, SDLSA", 500,500);
+    SDLSA_SetCanvasSize(16,16);
+    SDLSA_PSet(0,1,0xAA00AAFF);
+    SDLSA_ReDraw();
+    SDL_Delay(2000);
     return 0;
 }

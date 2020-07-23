@@ -13,7 +13,8 @@ int SDLSA_Init(char* WindowName, int width, int height);
 void SDLSA_GetKeys();
 void SDLSA_SetDrawMode(int drawMode);
 void SDLSA_PSet(int x, int y, int color);
-
+void SDLSA_ReDraw();
+void SDLSA_SetCanvasSize(int width, int height);
 
 
 
